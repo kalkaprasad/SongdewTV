@@ -1,0 +1,569 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+p,
+a,
+h1,
+h3,
+h2,
+h4,
+h5,
+button,
+span {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/*  song dew Tv Heading */
+
+.songdewTV-heading {
+  /* height: 71px; */
+  margin-left: 48px;
+  margin-top: 43px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #222222;
+}
+
+/* sondew TV */
+
+.songdewTV-Content {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 48px;
+  margin-right: 48px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 170%;
+  /* or 24px */
+  color: #222222;
+}
+
+/* knowmoreTV box  */
+.songdewTV-knowmore_box {
+  width: 1048px;
+  height: 108px;
+  /* margin-top: 52px; */
+  margin-left: 48px;
+  display: flex;
+
+  justify-content: space-between;
+  background: #FFFFFF;
+  border: 1px solid #F5F6F7;
+  box-sizing: border-box;
+  box-shadow: 2px 10px 25px rgba(181, 187, 200, 0.2);
+  border-radius: 20px;
+}
+.row >.VideoThumbaillist{
+  margin-top: 35px;
+}
+
+.card_dec {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  color: #222222;
+}
+
+
+/* knowmore box heading 1 */
+.songdewTV_knowmore_Heading {
+  margin-top: 27px;
+  margin-left: 41px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #222222;
+
+}
+
+.lovemore {
+  margin-top: 52px;
+  margin-left: 48px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  color: #222222;
+}
+
+/* know more decripton */
+
+.songdewTV_knowmore_Descri {
+  margin-top: 27px;
+  margin-left: 48px;
+  margin-right: 48px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 170%;
+  /* or 24px */
+  color: rgba(34, 34, 34, 0.8)
+}
+
+.subheading {
+  font-family: Poppins;
+  margin-left: 48px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  /* or 27px */
+  color: #989AA3;
+}
+
+
+.play-button {
+  /* position: absolute; */
+
+  position: absolute;
+  background: #ffffff;
+  border-radius: 100px;
+  width: 45px;
+  height: 45px;
+  margin-left: 125px;
+  margin-top: 71px;
+}
+
+.play-button_main {
+  position: absolute;
+  width: 52.66px;
+  height: 52.66px;
+  margin-left: 346.39px;
+  margin-top: 227.44px;
+
+  background: #FFFFFF;
+  border-radius: 100px;
+}
+
+.card {
+  width: 800px;
+  border: none !important;
+  border-color: #F5F6F7;
+  height: 506.67px;
+  margin-left: 167.26px;
+  margin-top: 124.44px;
+  border-radius: 10px;
+}
+
+.VideoThumbaillist {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 48px;
+  margin-top: 35px;
+
+}
+
+/* know more click Link */
+
+.songdewTV_knowmore_link {
+  margin-top: 27px;
+  margin-right: 41px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 170%;
+  /* identical to box height, or 24px */
+  color: #3D67FF;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+
+
+@media only screen and (max-width: 600px) {
+  div.container.main-block {
+    max-width: 375px;
+    padding: 0;
+  }
+
+
+  .row >.VideoThumbaillist{
+    margin-top: 7px;
+  }
+  
+  .songdewTV-heading {
+    margin-left: 16px;
+  }
+
+  .songdewTV-knowmore_box {
+    width: 344px;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    background: #FFFFFF;
+    border: 1px solid #F5F6F7;
+    box-sizing: border-box;
+    box-shadow: 2px 10px 25px rgba(181, 187, 200, 0.2);
+    border-radius: 20px;
+  }
+
+  .songdewTV_knowmore_Heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    text-align: center;
+    color: #222222;
+
+  }
+
+
+  .songdewTV_knowmore_Descri {
+    width: 273px;
+    /* height: 27px; */
+    font-family: Poppins;
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(34, 34, 34, 0.8);
+    /* or 24px */
+    text-align: center;
+  }
+
+  .songdewTV_knowmore_link {
+    margin-top: 0px;
+    font-family: Poppins;
+    margin-right: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    /* identical to box height, or 24px */
+    text-align: center;
+    color: #3D67FF;
+  }
+
+
+  .lovemore {
+    margin-left: 16px;
+    width: 242px;
+  }
+
+  .subheading {
+    padding-left: 0px;
+    margin-left: 16px
+  }
+
+  .VideoThumbaillist {
+    margin-left: 14px;
+  }
+
+  .songdewTV-Content {
+    width: 343px;
+    height: auto;
+    margin-left: 17px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 170%;
+
+  }
+  
+
+  .card {
+    width: 345.1px;
+    height: 215.94px;
+    margin-left: 16px;
+  }
+
+  .play-button_main {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin-left: 147px;
+    margin-top: 82px;
+
+
+  }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 300px) {
+  /* div.container.main-block {
+      max-width: 375px;
+      padding: 0;
+    } */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+
+  .songdewTV-heading {
+    /* height: 71px; */
+    margin-left: 29px;
+    margin-top: 43px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #222222;
+  }
+
+  .row >.VideoThumbaillist{
+    margin-top: 7px;
+  }
+  
+
+  .VideoThumbaillist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .songdewTV-knowmore_box {
+    width: 492px;
+    height: 222px;
+    margin-left: 28px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #F5F6F7;
+    box-sizing: border-box;
+    box-shadow: 2px 10px 25px rgba(181, 187, 200, 0.2);
+    border-radius: 20px;
+  }
+
+  .play-button_main {
+    position: absolute;
+    width: 32.04px;
+    height: 32.04px;
+    margin-left: 230.7px;
+    margin-top: 138.14px;
+
+    background: #FFFFFF;
+    border-radius: 100px;
+    ;
+  }
+
+  .play-button {
+    /* position: absolute; */
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-left: 95px;
+    margin-top: 72px;
+    background: #FFFFFF;
+    border-radius: 100px;
+  }
+
+  .imgsize {
+    width: 234px;
+    height: 160px;
+    border-radius: 10px;
+  }
+
+  .songdewTV_knowmore_Descri {
+    width: 441px;
+    height: 72px;
+    margin-left: 26px;
+    margin-top: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    margin-right: 25px;
+    line-height: 170%;
+    /* or 22px */
+    text-align: center;
+    color: rgba(34, 34, 34, 0.8);
+
+  }
+
+  .songdewTV_knowmore_link {
+    height: 22px;
+    margin-left: 206px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 170%;
+    /* or 22px */
+    text-align: center;
+  }
+
+  .songdewTV_knowmore_link {
+    width: 80px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    /* or 22px */
+    text-align: center;
+    color: #3D67FF;
+  }
+
+  .card {
+    width: 492.74px;
+    height: 308.32px;
+    margin-left: 28px;
+    border-radius: 10px;
+  }
+
+  /* image of video */
+  .songdewTV-Content {
+    width: 491px;
+    height: auto;
+    margin-left: 29px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 170%;
+    /* or 22px */
+    color: #222222;
+  }
+
+}
+
+/* tab View End here.. */
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  div.container.main-block {
+    max-width: 548px;
+  }
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  div.container.main-block {
+    max-width: 1144px;
+  }
+}
+
+/* Hiding components */
+
+
+@media (max-width: 765px) {
+  /* .card {
+      margin-bottom: 15px;
+    } */
+
+
+
+}
+
+/* Ipad pro  */
+@media only screen and (min-width: 1024px) and (orientation: portrait) {
+
+  div.container.main-block {
+    max-width: 1144px;
+  }
+
+  .songdewTV-Content {
+
+    width: 1020px;
+    height: auto;
+    margin-left: 48px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 170%;
+    /* or 24px */
+
+
+    color: #222222;
+  }
+
+  .songdewTV-knowmore_box {
+    width: 1048px;
+    height: 108px;
+    margin-left: 48px;
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    border: 1px solid #F5F6F7;
+    box-sizing: border-box;
+    box-shadow: 2px 10px 25px rgba(181, 187, 200, 0.2);
+    border-radius: 20px;
+  }
+
+
+  /* knowmore box heading 1 */
+  .songdewTV_knowmore_Heading {
+    margin-top: 27px;
+    margin-left: 41px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #222222;
+
+  }
+
+
+  .songdewTV_knowmore_Descri {
+    margin-top: 27px;
+    margin-left: 48px;
+    margin-right: 48px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 170%;
+    /* or 24px */
+    color: rgba(34, 34, 34, 0.8)
+  }
+
+  /* image of video */
+  .imgsize {
+    width: 251px;
+    height: 160px;
+    border-radius: 10px;
+  }
+
+  .VideoThumbaillist {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 35px;
+
+  }
+
+
+}
